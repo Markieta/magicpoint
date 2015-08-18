@@ -4,7 +4,7 @@
 # Author: Christopher Markieta
 
 # Run in RAM to prevent damaging microSD card
-cp -R /home/markieta/Documents/mgp/ /tmp/
+cp -R /home/markieta/Documents/magicpoint/ /tmp/
 
 export DISPLAY=:0
 X -noreset -nocursor -ac $DISPLAY &
@@ -13,5 +13,5 @@ xset -dpms
 
 while true
 do
-    mgp -F 1,0,0 -d 5 /tmp/mgp/ehl.mgp
+    mgp -F 1,0,0 -d 5 /tmp/magicpoint/ehl.mgp
 done &
