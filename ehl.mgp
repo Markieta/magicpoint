@@ -33,7 +33,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %page
 %center, back "black"
-%image "cdot.png"
+%image "images/cdot.png"
 
 %area 40 100 35 20
 %left, size 12, fore "red"
@@ -52,7 +52,7 @@ Open Source Technology
 for Emerging Platforms
 
 %area 1 1 95 70
-%right, image "nserc.jpg"
+%right, image "images/nserc.jpg"
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %page
 %area 70 100 20 2
@@ -75,9 +75,9 @@ Hardware
 %left, size 12, fore "white"
 Current Projects
 	Koji Build System for Pidora
-%newimage -zoom 50 "pidora.png"
+%newimage -zoom 50 "images/pidora.png"
 	ARMv8 Architecture 64-bit (AArch64) Research
-%newimage -zoom 50 "aarch64.jpg"
+%newimage -zoom 50 "images/aarch64.jpg"
 	Projects for Seneca College Students
-%image "seneca.png"
+%image "images/seneca.png"
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
