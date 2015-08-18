@@ -1,0 +1,83 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%
+%% This default.mgp is "TrueType fonts" oriented.
+%% First, you should create "~/.mgprc" whose contents are:
+%%      tfdir "/path/to/truetype/fonts"
+%%
+%% To visualize English, install "times.ttf", "arial.ttf", and "cour.ttf"
+%% into the "tfdir" directory above:
+%%      http://microsoft.com/typography/fontpack/default.htm
+%%
+%% To visualize Japanese, install "MSMINCHO.ttf" and 
+%% "watanabenabe-mincho.ttf" into the "tfdir" directory above:
+%%      http://www.mew.org/mgp/xtt-fonts_0.19981020-3.tar.gz
+%%
+%%deffont "standard" xfont "helvetica-medium-r", tfont "standard.ttf", tmfont "hoso6.ttf"
+%%deffont "thick" xfont "helvetica-bold-r", tfont "thick.ttf", tmfont "hoso6.ttf"
+%deffont "typewriter" xfont "courier-medium-r", tfont "typewriter.ttf", tmfont "hoso6.ttf"
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%
+%% Default settings per each line numbers.
+%%
+%%default 1 area 90 90, leftfill, size 2, fore "gray20", back "white", font "standard", hgap 0
+%%default 2 size 7, vgap 10, prefix " ", ccolor "black"
+%%default 3 size 2, bar "gray70", vgap 10
+%%default 4 size 5, fore "gray20", vgap 30, prefix " ", font "standard"
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%
+%% Default settings that are applied to TAB-indented lines.
+%%
+%tab 1 size 5, vgap 40, prefix "  ", icon box "red" 50
+%tab 2 size 4, vgap 40, prefix "      ", icon arc "yellow" 50
+%tab 3 size 3, vgap 40, prefix "            ", icon delta3 "white" 40
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%page
+%center, back "black"
+%image "cdot.png"
+
+%area 40 100 35 20
+%left, size 12, fore "red"
+E
+H
+L
+%area 40 100 40 20
+%left, size 12, fore "darkred"
+nterprise
+yperscale
+ab
+
+%area 60 100 5 70
+%left, size 9, fore "steelblue2"
+Open Source Technology 
+for Emerging Platforms
+
+%area 1 1 95 70
+%right, image "nserc.jpg"
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%page
+%area 70 100 20 2
+%left, size 12, fore "white"
+Hardware
+	12 Terabytes of Solid State Storage
+
+	10 Gigabit Ethernet Switch
+
+	ARMv8 64-bit Development Boards
+
+	Calxeda EnergyCore ECX-1000 Hyperscale
+
+	Redundant Power Distribution
+
+	Active Noise Cancellation
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%page
+%area 70 100 20 2
+%left, size 12, fore "white"
+Current Projects
+	Koji Build System for Pidora
+%newimage -zoom 50 "pidora.png"
+	ARMv8 Architecture 64-bit (AArch64) Research
+%newimage -zoom 50 "aarch64.jpg"
+	Projects for Seneca College Students
+%image "seneca.png"
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
