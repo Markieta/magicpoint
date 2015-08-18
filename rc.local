@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# Start MagicPoint slideshow on boot on Display 0 in multi-user mode
+# Author: Christopher Markieta
+
+# Run in RAM to prevent damaging microSD card
+cp -R /home/markieta/Documents/mgp/ /tmp/
+
+export DISPLAY=:0
+X -noreset -nocursor -ac $DISPLAY &
+sleep 3
+xset -dpms
+
+while true
+do
+    mgp -F 1,0,0 -d 5 /tmp/mgp/ehl.mgp
+done &
