@@ -12,11 +12,13 @@ export DISPLAY=:0
 
 X -noreset -nocursor -ac $DISPLAY &
 
+setterm -blank 0 -powersave off
+
 xset s off
 xset s noblank
 xset -dpms
 
 while true
 do
-    mgp -F 1,0,0 -d 5 "$RAMDISK"/magicpoint/ehl.mgp
+    mgp -F 1,0,0 -d 5 "$RAMDISK"/magicpoint/ehl.mgp &>/dev/null
 done &

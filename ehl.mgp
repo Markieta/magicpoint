@@ -47,7 +47,7 @@ yperscale
 ab
 
 %area 60 100 5 70
-%left, size 9, fore "steelblue2"
+%left, size 8, fore "steelblue2"
 Open Source Technology 
 for Emerging Platforms
 
