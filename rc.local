@@ -3,15 +3,20 @@
 # Start MagicPoint slideshow on boot on Display 0 in multi-user mode
 # Author: Christopher Markieta
 
+RAMDISK='/dev/shm/'
+
 # Run in RAM to prevent damaging microSD card
-cp -R /home/markieta/Documents/magicpoint/ /tmp/
+cp -R /home/markieta/Documents/magicpoint/ "$RAMDISK"
 
 export DISPLAY=:0
+
 X -noreset -nocursor -ac $DISPLAY &
-sleep 3
+
+xset s off
+xset s noblank
 xset -dpms
 
 while true
 do
-    mgp -F 1,0,0 -d 5 /tmp/magicpoint/ehl.mgp
+    mgp -F 1,0,0 -d 5 "$RAMDISK"/magicpoint/ehl.mgp
 done &

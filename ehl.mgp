@@ -64,7 +64,7 @@ Hardware
 
 	ARMv8 64-bit Development Boards
 
-	Calxeda EnergyCore ECX-1000 Hyperscale
+	Calxeda EnergyCore ECX-1000
 
 	Redundant Power Distribution
 
@@ -76,7 +76,7 @@ Hardware
 Current Projects
 	Koji Build System for Pidora
 %newimage -zoom 50 "images/pidora.png"
-	ARMv8 Architecture 64-bit (AArch64) Research
+	ARMv8 64-bit (AArch64) Research
 %newimage -zoom 50 "images/aarch64.jpg"
 	Projects for Seneca College Students
 %image "images/seneca.png"
