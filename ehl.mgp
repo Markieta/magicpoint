@@ -48,8 +48,9 @@ ab
 
 %area 60 100 5 70
 %left, size 8, fore "steelblue2"
-Open Source Technology 
-for Emerging Platforms
+Open Source
+Technology for
+Emerging Platforms
 
 %area 1 1 95 70
 %right, image "images/nserc.jpg"

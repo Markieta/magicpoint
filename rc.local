@@ -12,6 +12,8 @@ export DISPLAY=:0
 
 X -noreset -nocursor -ac $DISPLAY &
 
+sleep 3 # Required!
+
 setterm -blank 0 -powersave off
 
 xset -dpms
