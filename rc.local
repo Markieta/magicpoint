@@ -14,9 +14,9 @@ X -noreset -nocursor -ac $DISPLAY &
 
 setterm -blank 0 -powersave off
 
+xset -dpms
 xset s off
 xset s noblank
-xset -dpms
 
 while true
 do
