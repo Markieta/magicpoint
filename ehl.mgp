@@ -14,7 +14,7 @@
 %%
 %%deffont "standard" xfont "helvetica-medium-r", tfont "standard.ttf", tmfont "hoso6.ttf"
 %%deffont "thick" xfont "helvetica-bold-r", tfont "thick.ttf", tmfont "hoso6.ttf"
-%deffont "typewriter" xfont "courier-medium-r", tfont "typewriter.ttf", tmfont "hoso6.ttf"
+%%deffont "typewriter" xfont "courier-medium-r", tfont "typewriter.ttf", tmfont "hoso6.ttf"
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%
 %% Default settings per each line numbers.
@@ -32,31 +32,35 @@
 %tab 3 size 3, vgap 40, prefix "            ", icon delta3 "white" 40
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %page
-%center, back "black"
+
+%%    w h  x y
+%area 0 0 25 0
 %image "images/cdot.png"
 
-%area 40 100 35 20
+%area 1 100 35 20
 %left, size 12, fore "red"
 E
 H
 L
-%area 40 100 40 20
+
+%area 36 100 40 20
 %left, size 12, fore "darkred"
 nterprise
 yperscale
 ab
 
-%area 60 100 5 70
+%area 50 100 5 65
 %left, size 8, fore "steelblue2"
 Open Source
 Technology for
 Emerging Platforms
 
-%area 1 1 95 70
+%area 0 0 95 65
 %right, image "images/nserc.jpg"
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %page
-%area 70 100 20 2
+
+%area 60 100 20 2
 %left, size 12, fore "white"
 Hardware
 	12 Terabytes of Solid State Storage
@@ -72,6 +76,7 @@ Hardware
 	Active Noise Cancellation
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %page
+
 %area 70 100 20 2
 %left, size 12, fore "white"
 Current Projects
@@ -81,4 +86,27 @@ Current Projects
 %newimage -zoom 50 "images/aarch64.jpg"
 	Projects for Seneca College Students
 %image "images/seneca.png"
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%page
+
+%area 0 0 5 5
+%newimage -zoom 50 "images/leap.png"
+
+%area 1 100 35 20
+%left, size 12, fore "green"
+L
+E
+A
+P
+
+%area 34 100 40 20
+%left, size 12, fore "darkgreen"
+inux for
+nterprise
+RM
+latforms
+
+%area 40 100 35 85
+%left, size 8, fore "deepskyblue"
+leapproject.ca
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
